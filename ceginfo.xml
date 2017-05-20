@@ -1,3 +1,36 @@
+<?xml version="1.0" encoding="windows-1250" standalone="yes"?>
+
+<!DOCTYPE ceginfo[
+
+<!ELEMENT ceginfo (ceg+)>
+<!ATTLIST ceg nev CDATA #REQUIRED>
+<!ELEMENT ceg (alapitas, tulaj+, alkalmazottak?, fizetes, elerhetosegek, tevekenyseg+, nyitvatartas)>
+<!ELEMENT alapitas EMPTY>
+<!ATTLIST alapitas ev CDATA #REQUIRED>
+<!ELEMENT tulaj (nev, telefonszam?, email?)>
+<!ELEMENT nev (#PCDATA)>
+<!ELEMENT telefonszam (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT alkalmazottak (alkalmazott+)>
+<!ELEMENT alkalmazott (nev, beosztas, fizetes, telefonszam)>
+<!ATTLIST alkalmazott szemelyi ID #REQUIRED>
+<!ATTLIST fizetes mod (keszpenz|bank|paypal) "keszpenz">
+<!ELEMENT beosztas (#PCDATA)>
+<!ELEMENT fizetes (#PCDATA)>
+<!ELEMENT elerhetosegek (cim, telefonszam+, weboldal?, email?)>
+<!ELEMENT cim (#PCDATA)>
+<!ELEMENT weboldal (#PCDATA)>
+<!ELEMENT tevekenyseg (profil, termekek)>
+<!ELEMENT profil (#PCDATA)>
+<!ELEMENT termekek (termek)>
+<!ELEMENT termek (#PCDATA)>
+<!ELEMENT nyitvatartas (hetkoznap?, hetvege?)>
+<!ELEMENT hetkoznap (#PCDATA)>
+<!ELEMENT hetvege (#PCDATA)>
+]>
+
+
+
 <ceginfo>
 	<ceg nev="Extreme Digital">
 		<alapitas ev="2001"/>
