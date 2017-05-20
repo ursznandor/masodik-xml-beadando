@@ -45,4 +45,52 @@
 			<hetvege>7-12</hetvege>
 		</nyitvatartas>
 	</ceg>
+	
+	<ceg nev="Alensa.hu">
+		<alapitas ev="2005"/>
+		<tulaj>
+			<nev>Nagy Zoltan</nev>
+			<telefonszam>06704129876</telefonszam>
+			<email>n.zoltan@alensa.hu</email>
+		</tulaj>
+		<alkalmazottak>
+			<alkalmazott szemelyi="346324IA">
+				<nev>Rozsa Ilona</nev>
+				<beosztas>elado</beosztas>
+				<fizetes>140000</fizetes>
+				<telefonszam>06302345345</telefonszam>
+			</alkalmazott>
+			<alkalmazott szemelyi="875456RA">
+				<nev>Ferenc Tamas</nev>
+				<beosztas>beszallito</beosztas>
+				<fizetes>200000</fizetes>
+				<telefonszam>06202343867</telefonszam>
+			</alkalmazott>
+			<alkalmazott szemelyi="345678RA">
+				<nev>Gal Tamas</nev>
+				<beosztas>futar</beosztas>
+				<fizetes>240000</fizetes>
+				<telefonszam>06302121145</telefonszam>
+			</alkalmazott>
+		</alkalmazottak>
+		<fizetes mod="bank"/>
+		<elerhetosegek>
+			<cim>Budapest, Rózsa utca 101, 1064</cim>
+			<telefonszam>0614088300</telefonszam>
+			<weboldal>www.alensa.hu</weboldal>
+			<email>info@alensa.hu</email>
+		</elerhetosegek>
+		<tevekenyseg>
+			<profil>Kontaktlencse Webaruhaz</profil>
+			<termekek>
+				<termek>Kontaktlencsek</termek>
+				<termek>Apolo folyadekok</termek>
+				<termek>Kiegeszitok</termek>
+			</termekek>
+		</tevekenyseg>
+		<nyitvatartas>
+			<hetkoznap>8-16</hetkoznap>
+			<hetvege>8-13</hetvege>
+		</nyitvatartas>
+	</ceg>
 </ceginfo>
