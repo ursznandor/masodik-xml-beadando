@@ -59,7 +59,7 @@
 				<telefonszam>06204572345</telefonszam>
 			</alkalmazott>
 		</alkalmazottak>
-		<fizetes mod="bank"/>
+		<fizetes_KESZPENZ/>
 		<elerhetosegek>
 			<cim>Debrecen, Hajnal utca 76, 4034</cim>
 			<telefonszam>0652487154</telefonszam>
@@ -107,7 +107,7 @@
 				<telefonszam>06302121145</telefonszam>
 			</alkalmazott>
 		</alkalmazottak>
-		<fizetes mod="bank"/>
+		<fizetes_BANK/>
 		<elerhetosegek>
 			<cim>Budapest, Rózsa utca 101, 1064</cim>
 			<telefonszam>0614088300</telefonszam>
