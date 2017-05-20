@@ -1,0 +1,48 @@
+<ceginfo>
+	<ceg nev="Extreme Digital">
+		<alapitas ev="2001"/>
+		<tulaj>
+			<nev>Kiss Gedeon</nev>
+			<telefonszam>06204876325</telefonszam>
+			<email>valami@gmail.com</email>
+		</tulaj>
+		<tulaj>
+			<nev>Gergo Aron</nev>
+			<telefonszam>06704201205</telefonszam>
+			<email>g.aron@gmail.com</email>
+		</tulaj>
+		<alkalmazottak>
+			<alkalmazott szemelyi="654234IA">
+				<nev>Kiss Eva</nev>
+				<beosztas>elado</beosztas>
+				<fizetes>180000</fizetes>
+				<telefonszam>06702541896</telefonszam>
+			</alkalmazott>
+			<alkalmazott szemelyi="765787RA">
+				<nev>Benedek Elek</nev>
+				<beosztas>raktaros</beosztas>
+				<fizetes>150000</fizetes>
+				<telefonszam>06204572345</telefonszam>
+			</alkalmazott>
+		</alkalmazottak>
+		<fizetes mod="bank"/>
+		<elerhetosegek>
+			<cim>Debrecen, Hajnal utca 76, 4034</cim>
+			<telefonszam>0652487154</telefonszam>
+			<weboldal>extremedigital.hu</weboldal>
+			<email>info@extremedigital.hu</email>
+		</elerhetosegek>
+		<tevekenyseg>
+			<profil>Muszaki Webaruhaz</profil>
+			<termekek>
+				<termek>Televiziok</termek>
+				<termek>Szamitogepek</termek>
+				<termek>Mosogepek</termek>
+			</termekek>
+		</tevekenyseg>
+		<nyitvatartas>
+			<hetkoznap>7-18</hetkoznap>
+			<hetvege>7-12</hetvege>
+		</nyitvatartas>
+	</ceg>
+</ceginfo>
