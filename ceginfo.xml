@@ -4,7 +4,7 @@
 
 <!ELEMENT ceginfo (ceg+)>
 <!ATTLIST ceg nev CDATA #REQUIRED>
-<!ELEMENT ceg (alapitas, tulaj+, alkalmazottak?, fizetes, elerhetosegek, tevekenyseg+, nyitvatartas)>
+<!ELEMENT ceg (alapitas, tulaj+, alkalmazottak?, (fizetes_KESZPENZ | fizetes_BANK | fizetes_PAYPAL), elerhetosegek, tevekenyseg+, nyitvatartas)>
 <!ELEMENT alapitas EMPTY>
 <!ATTLIST alapitas ev CDATA #REQUIRED>
 <!ELEMENT tulaj (nev, telefonszam?, email?)>
@@ -14,9 +14,10 @@
 <!ELEMENT alkalmazottak (alkalmazott+)>
 <!ELEMENT alkalmazott (nev, beosztas, fizetes, telefonszam)>
 <!ATTLIST alkalmazott szemelyi ID #REQUIRED>
-<!ATTLIST fizetes mod (keszpenz|bank|paypal) "keszpenz">
 <!ELEMENT beosztas (#PCDATA)>
-<!ELEMENT fizetes (#PCDATA)>
+<!ELEMENT fizetes_KESZPENZ (#PCDATA)>
+<!ELEMENT fizetes_BANK (#PCDATA)>
+<!ELEMENT fizetes_PAYPAL (#PCDATA)>
 <!ELEMENT elerhetosegek (cim, telefonszam+, weboldal?, email?)>
 <!ELEMENT cim (#PCDATA)>
 <!ELEMENT weboldal (#PCDATA)>
