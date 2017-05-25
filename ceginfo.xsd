@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+         <xs:element name="ceginfo">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="ceg" maxOccurs="20">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="alapitas">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="ev" type="xs:int"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="tulaj" maxOccurs="5">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="nev" type="xs:string"></xs:element>
+                                                               <xs:element name="telefonszam" type="xs:int"></xs:element>
+                                                               <xs:element name="email" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="alkalmazottak">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="alkalmazott" maxOccurs="30">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="nev" type="xs:string"></xs:element>
+                                                                                 <xs:element name="beosztas" type="xs:string"></xs:element>
+                                                                                 <xs:element name="fizetes" type="xs:int"></xs:element>
+                                                                                 <xs:element name="telefonszam" type="xs:int"></xs:element>
+                                                                           </xs:sequence>
+                                                                           <xs:attribute name="szemelyi" type="xs:string"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="fizetes_KESZPENZ"></xs:element>
+                                             <xs:element name="fizetes_BANK"></xs:element>
+                                             <xs:element name="fizetes_PAYPAL"></xs:element>
+                                             <xs:element name="elerhetosegek">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="cim" type="xs:string"></xs:element>
+                                                               <xs:element name="telefonszam" type="xs:int"></xs:element>
+                                                               <xs:element name="weboldal" type="xs:string"></xs:element>
+                                                               <xs:element name="email" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="tevekenyseg">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="profil" type="xs:string"></xs:element>
+                                                               <xs:element name="termekek">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="termek" maxOccurs="100" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="nyitvatartas">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="hetkoznap" type="xs:string"></xs:element>
+                                                               <xs:element name="hetvege" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                       <xs:attribute name="nev" type="xs:string"></xs:attribute>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+ 
