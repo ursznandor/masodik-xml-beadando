@@ -23,7 +23,7 @@
 <!ELEMENT weboldal (#PCDATA)>
 <!ELEMENT tevekenyseg (profil, termekek)>
 <!ELEMENT profil (#PCDATA)>
-<!ELEMENT termekek (termek)>
+<!ELEMENT termekek (termek+)>
 <!ELEMENT termek (#PCDATA)>
 <!ELEMENT nyitvatartas (hetkoznap?, hetvege?)>
 <!ELEMENT hetkoznap (#PCDATA)>
